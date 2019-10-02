@@ -1,8 +1,8 @@
 require 'discordrb'
 
 bot = Discordrb::Commands::CommandBot.new(
-    token:'NjIyMzQxMjc2NjY2NDI5NDQx.XXyiYQ.ePYfWEVuE7uXXeJW-HyFj1L-gvM',
-    client_id:622341276666429441,
+    token:$DISCORDBOT_TOKEN,
+    client_id:$DISCORDBOT_CLIENT_ID,
     prefix:"/"
 )
 
